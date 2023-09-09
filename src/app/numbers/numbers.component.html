@@ -1,0 +1,72 @@
+<div class="row">
+    <h2>numbers List Languaje</h2>
+</div>
+<DIV class="ROW">
+    <h3>Numbers in English</h3>
+</DIV>
+
+<div class="table-responsive">
+    <table class="table table-primary">
+        <thead>
+            <tr>
+                <th scope="col">number</th>
+                <th scope="col">numeral</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let number of numbers">
+                <td>{{number }}</td>
+                <td>{{number | numeral: 'ingles'}}</td>
+           
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<DIV class="ROW">
+    <h3>Numbers in Italiano</h3>
+</DIV>
+
+<div class="table-responsive">
+    <table class="table table-primary">
+        <thead>
+            <tr>
+                <th scope="col">number</th>
+                <th scope="col">numeral</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let number of numbers">
+                <td>{{number }}</td>
+                <td>{{number | numeral: 'italiano'}}</td>
+           
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<DIV class="ROW">
+    <h3>Numbers in Spanish</h3>
+</DIV>
+
+<div class="table-responsive">
+    <table class="table table-primary">
+        <thead>
+            <tr>
+                <th scope="col">number</th>
+                <th scope="col">numeral</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let number of numbers">
+                <td>{{number }}</td>
+                <td>{{number | numeral: 'español'}}</td>
+           
+            </tr>
+        </tbody>
+    </table>
+</div>
